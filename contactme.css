@@ -1,97 +1,97 @@
-button{
-    display: flex;
-    font-family: inherit;
-    background-color: #3361c4; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: medium;
-    margin: 15px 2px;
-    cursor: pointer;
-    border-radius: 5px;  
-    align-content: center; 
-    align-items: center; 
-    width: 200px;
+button {
+  display: flex;
+  font-family: inherit;
+  background-color: #3361c4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: medium;
+  margin: 15px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-content: center;
+  align-items: center;
+  width: 200px;
 }
 .button:hover {
-    background-color: #5e7fc5; 
-    color: #dadada;
-    cursor: pointer;
+  background-color: #5e7fc5;
+  color: #dadada;
+  cursor: pointer;
 }
-*{background-color: #f5f5f5;
-    font-family: inherit;
-    box-sizing: border-box;
-}
-    
-.quote{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: #3361c4;
-    height:auto;
-    width: 100%;
-    h2{
-        color: #f5f5f5;
-        background-color: #3361c4;
-        font-family: inherit;
-        padding: 20px;
-    
-    }
+* {
+  background-color: #f5f5f5;
+  font-family: inherit;
+  box-sizing: border-box;
 }
 
-.phone-number{
+.quote {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #3361c4;
+  height: auto;
+  width: 100%;
+  h2 {
+    color: #f5f5f5;
+    background-color: #3361c4;
     font-family: inherit;
-    color: #3361c4;
-    text-align: center;
-    padding-top: 20px;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-label{
-    font-weight: bold;
-}
-.form-box{
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-    background-color: #f5f5f5;
     padding: 20px;
-    margin-bottom: 15px;
-    width: 70%;
-    input, textarea {
+  }
+}
+
+.phone-number {
+  font-family: inherit;
+  color: #3361c4;
+  text-align: center;
+  padding-top: 20px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+label {
+  font-weight: bold;
+}
+.form-box {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 15px;
+  width: 70%;
+  input,
+  textarea {
     padding: 0.5em;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1em;
   }
 }
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f5f5f5;
-    padding: 20px;
-    color: rgb(255, 255, 255);
-    width: 70%;
-    margin-left: 15%;
-    border-bottom: #a5a5a5 solid 1px;
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  width: 70%;
+  margin-left: 15%;
+  border-bottom: #a5a5a5 solid 1px;
 
-    .brand{
+  .brand {
     font-family: inherit;
     color: #a5a5a5;
     text-align: center;
@@ -100,29 +100,29 @@ header{
     justify-content: left;
     text-align: left;
     font-size: 30px;
-    ;
- }
-    nav{
-        display: flex;
-        gap: 2ch;
-        justify-content: right;
-        font-family: inherit;
+  }
+  nav {
+    display: flex;
+    gap: 2ch;
+    justify-content: right;
+    font-family: inherit;
     color: #000000;
     text-align: right;
-    background-color: #f5f5f5;}
-    nav a{
-        text-decoration: none;
-        color: #000000;
-        font-weight: bold;
-        font-size: 20px;
-    }
-} 
+    background-color: #f5f5f5;
+  }
+  nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
 
- @media (max-width: 600px){
-    body{
-        font-size: 70%;}
-    .form-box{
-        padding:10px;
-    }}
-
-   
+@media (max-width: 600px) {
+  body {
+    font-size: 70%;
+  }
+  .form-box {
+    padding: 10px;
+  }
+}
